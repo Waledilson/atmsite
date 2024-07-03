@@ -91,15 +91,15 @@ header {
   }
   .navbar-link {
     color: white;
-    font-size: medium;
+    font-size: large;
   }
   .navbar-brand {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
   }
   .socials-icon {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
   }
 }
 

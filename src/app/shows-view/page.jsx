@@ -2,8 +2,8 @@ import React from "react"
 
 function ShowsView() {
   return (
-    <div>
-      <h1></h1>
+    <div className="shows-view">
+      <h1>Jubilee</h1>
     </div>
   )
 }

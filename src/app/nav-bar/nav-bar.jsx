@@ -6,30 +6,32 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@nextui-org/navbar"
-import { Link } from "@nextui-org/link"
+import Link from "next/link"
 
 function NavBar() {
   return (
     <Navbar className="navbar">
       <NavbarContent justify="start" className="navbar-items sm:flex gap-4">
         <NavbarItem>
-          <img className="navbar-brand" src="/img/atm-logo.png" />
+          <Link href="/">
+            <img className="navbar-brand" src="/img/atm-logo.png" />
+          </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="navbar-link" href="#">
+          <Link className="navbar-link" href="/media-view">
             MEDIA
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="navbar-link" href="#" aria-current="page">
+          <Link className="navbar-link" href="/shows-view" aria-current="page">
             SHOWS
           </Link>
         </NavbarItem>
-        <NavbarItem>
+        {/* <NavbarItem>
           <Link className="navbar-link" href="#">
             STORE
           </Link>
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
       <NavbarContent className="socials" justify="end">
         <NavbarItem className="socials-icon">

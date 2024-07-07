@@ -27,11 +27,14 @@ function NavBar() {
             SHOWS
           </Link>
         </NavbarItem>
-        {/* <NavbarItem>
-          <Link className="navbar-link" href="#">
+        <NavbarItem>
+          <Link
+            className="navbar-link"
+            href="https://www.alertthemedic.com/store"
+          >
             STORE
           </Link>
-        </NavbarItem> */}
+        </NavbarItem>
       </NavbarContent>
       <NavbarContent className="socials" justify="end">
         <NavbarItem className="socials-icon">

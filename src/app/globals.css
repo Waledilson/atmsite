@@ -82,7 +82,19 @@ header {
   text-align: center;
   font-size: x-large;
 }
-.Youtube {
+.video-embed {
+  width: 50%;
+  height: auto;
+}
+
+.streaming-platforms {
+  margin-bottom: 40px;
+}
+.youtube {
+}
+.video-embed {
+  padding: 5px 50px 5px 50px;
+  margin: auto;
 }
 
 /* SHOWSVIEW */
@@ -92,6 +104,11 @@ header {
   color: white;
   font-family: "MUNICH", sans-serif;
   font-size: x-large;
+  justify-content: center;
+}
+.poster {
+  margin: auto;
+  width: 50%;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////*/
@@ -121,6 +138,11 @@ header {
   .socials-icon {
     height: 30px;
     width: 30px;
+  }
+  /* MEDIAVIEW */
+  .video-embed {
+    width: 90%;
+    height: 300;
   }
 }
 

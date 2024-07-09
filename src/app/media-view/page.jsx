@@ -1,4 +1,6 @@
 import React from "react"
+import { Suspense } from "react"
+import YoutubeEmbed from "../ui/youtube-embed.jsx"
 
 function MediaView() {
   return (
@@ -16,11 +18,13 @@ function MediaView() {
         </div>
       </div>
 
-      <div className="Youtube">
-        <h1 className="media-title">YOUTUBE</h1>
-        <a href="https://youtube.com/channel/UCcLC6Uz7LYyaBUiMHZQwxgQ?si=knQYvAD9-HfrANJM">
-          our youtube channel
-        </a>
+      <div className="youtube">
+        <Suspense fallback={<p>Loading video...</p>}>
+          <YoutubeEmbed embedId={`gC2TWLJXvJw?si=Wug6Cvp7FKivsUJx`} />
+          <YoutubeEmbed embedId={`nb9_bH3sENE?si=MVkE4QwLsJBdTaQy`} />
+          <YoutubeEmbed embedId={`WFiG9Z2QvLE?si=BOA1_zdw5YqguDhY`} />
+          <YoutubeEmbed embedId={`_g69FegBvwA?si=EjGaL13jVvH_d9BW`} />
+        </Suspense>
       </div>
     </div>
   )

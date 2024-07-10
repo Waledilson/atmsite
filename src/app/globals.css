@@ -123,6 +123,7 @@ header {
 
     background-color: #111111;
     border-bottom: 0.1rem solid #202020;
+    justify-content: start;
   }
   /* .navbar-items {
     justify-content: space-around;
@@ -132,6 +133,7 @@ header {
     font-size: large;
   }
   .navbar-brand {
+    position: static;
     height: 30px;
     width: 30px;
   }

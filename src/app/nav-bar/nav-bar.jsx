@@ -11,7 +11,7 @@ import Link from "next/link"
 function NavBar() {
   return (
     <Navbar className="navbar">
-      <NavbarContent className="navbar-items sm:flex gap-1">
+      <NavbarContent className="navbar-items sm:flex gap-3">
         <NavbarItem>
           <Link href="/">
             <img className="navbar-brand" src="/img/atm-logo.png" />

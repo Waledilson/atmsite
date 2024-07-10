@@ -11,7 +11,7 @@ import Link from "next/link"
 function NavBar() {
   return (
     <Navbar className="navbar">
-      <NavbarContent justify="start" className="navbar-items sm:flex gap-4">
+      <NavbarContent className="navbar-items sm:flex gap-4">
         <NavbarItem>
           <Link href="/">
             <img className="navbar-brand" src="/img/atm-logo.png" />
@@ -37,9 +37,9 @@ function NavBar() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className="socials" justify="end">
-        <NavbarItem className="socials-icon">
+        {/* <NavbarItem className="socials-icon">
           <img src="/img/youtube_icon.svg" />
-        </NavbarItem>
+        </NavbarItem> */}
         <NavbarItem className="socials-icon">
           <img src="/img/facebook_icon.svg" />
         </NavbarItem>

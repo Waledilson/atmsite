@@ -160,7 +160,7 @@ header {
   }
   .navbar {
     font-family: "MUNICH", sans-serif;
-    height: 8rem;
+    height: 7rem;
 
     background-color: #111111;
     border-bottom: 0.1rem solid #202020;
@@ -193,9 +193,12 @@ header {
     height: 300px;
   }
   .media-title {
-    font-size: 50pt;
+    font-size: 70pt;
   }
   .streaming-platforms {
+    font-size: 50pt;
+  }
+  .youtube {
     font-size: 50pt;
   }
   /* SHOWSVIEW */
@@ -204,7 +207,7 @@ header {
     text-align: center;
     color: white;
     font-family: "MUNICH", sans-serif;
-    font-size: 50pt;
+    font-size: 70pt;
     justify-content: center;
   }
   .poster {

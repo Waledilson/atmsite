@@ -5,9 +5,9 @@ import YoutubeEmbed from "../ui/youtube-embed.jsx"
 function MediaView() {
   return (
     <div className="media-view">
-      <div className="streaming-platforms">
+      <div>
         <h1 className="media-title">Stream Us</h1>
-        <div>
+        <div className="streaming-platforms">
           <p>spotify</p>
           <p>amazon</p>
           <p>apple music</p>

@@ -61,7 +61,7 @@ header {
     font-family: "MUNICH", sans-serif;
     text-align: center;
     color: white;
-    font-size: x-large;
+    font-size: 50pt;
   }
 }
 .lion-main-page-poster {
@@ -190,7 +190,26 @@ header {
   /* MEDIAVIEW */
   .video-embed {
     width: 90%;
-    height: 300;
+    height: 300px;
+  }
+  .media-title {
+    font-size: 50pt;
+  }
+  .streaming-platforms {
+    font-size: 35pt;
+  }
+  /* SHOWSVIEW */
+
+  .shows-view {
+    text-align: center;
+    color: white;
+    font-family: "MUNICH", sans-serif;
+    font-size: 50pt;
+    justify-content: center;
+  }
+  .poster {
+    margin: auto;
+    width: 90%;
   }
 }
 

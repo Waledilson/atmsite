@@ -123,11 +123,12 @@ header {
 
     background-color: #111111;
     border-bottom: 0.1rem solid #202020;
-    justify-content: start;
+    /* justify-content: center; */
   }
   /* .navbar-items {
-    justify-content: space-around;
+    justify-content: stretch;
   } */
+
   .navbar-link {
     color: white;
     font-size: large;
@@ -136,6 +137,9 @@ header {
     position: static;
     height: 30px;
     width: 30px;
+  }
+  .socials {
+    margin-left: 0rem;
   }
   .socials-icon {
     height: 20px;

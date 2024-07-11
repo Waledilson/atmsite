@@ -11,10 +11,16 @@ import Link from "next/link"
 function NavBar() {
   return (
     <Navbar className="navbar">
-      <NavbarContent className="navbar-items sm:flex gap-3">
-        <NavbarItem>
+      <NavbarContent className="navbar-items sm:flex gap-2">
+        {/* <NavbarItem>
           <Link href="/">
             <img className="navbar-brand" src="/img/atm-logo.png" />
+          </Link>
+        </NavbarItem> */}
+
+        <NavbarItem>
+          <Link className="navbar-link" href="/">
+            HOME
           </Link>
         </NavbarItem>
         <NavbarItem>
@@ -30,7 +36,7 @@ function NavBar() {
         <NavbarItem>
           <Link
             className="navbar-link"
-            href="https://www.alertthemedic.com/store"
+            href="https://www.alertthemedic.squarespace.com/store"
           >
             STORE
           </Link>

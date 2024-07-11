@@ -160,7 +160,7 @@ header {
   }
   .navbar {
     font-family: "MUNICH", sans-serif;
-    height: 4rem;
+    height: 7rem;
 
     background-color: #111111;
     border-bottom: 0.1rem solid #202020;
@@ -172,7 +172,7 @@ header {
 
   .navbar-link {
     color: white;
-    font-size: xx-large;
+    font-size: 45pt;
   }
   .navbar-brand {
     position: static;

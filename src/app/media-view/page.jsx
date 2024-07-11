@@ -6,7 +6,7 @@ function MediaView() {
   return (
     <div className="media-view">
       <div>
-        <h1 className="media-title">Stream Us</h1>
+        {/* <h1 className="media-title">Stream Us</h1> */}
         <div className="streaming-platforms">
           <p>spotify</p>
           <p>amazon</p>

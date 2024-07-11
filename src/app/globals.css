@@ -158,6 +158,38 @@ header {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
+  .navbar {
+    font-family: "MUNICH", sans-serif;
+
+    background-color: #111111;
+    border-bottom: 0.1rem solid #202020;
+    /* justify-content: center; */
+  }
+  /* .navbar-items {
+    justify-content: stretch;
+  } */
+
+  .navbar-link {
+    color: white;
+    font-size: large;
+  }
+  .navbar-brand {
+    position: static;
+    height: 30px;
+    width: 30px;
+  }
+  .socials {
+    margin-left: 0rem;
+  }
+  .socials-icon {
+    height: 20px;
+    width: 20px;
+  }
+  /* MEDIAVIEW */
+  .video-embed {
+    width: 90%;
+    height: 300;
+  }
 }
 
 /*           ORIGINAL CODE FOR REFERENCE          */

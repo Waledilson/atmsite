@@ -7,6 +7,7 @@ import {
   NavbarItem,
 } from "@nextui-org/navbar"
 import Link from "next/link"
+// import { LOGO } from "/img/atm-logo.png"
 
 function NavBar() {
   return (
@@ -47,10 +48,14 @@ function NavBar() {
           <img src="/img/youtube_icon.svg" />
         </NavbarItem> */}
         <NavbarItem className="socials-icon">
-          <img src="/img/facebook_icon.svg" />
+          <a href="https://www.facebook.com/alertthemedic">
+            <img src="/img/facebook_icon.svg" />
+          </a>
         </NavbarItem>
         <NavbarItem className="socials-icon">
-          <img src="/img/instagram_icon.svg" />
+          <a href="https://www.instagram.com/alertthemedic">
+            <img src="/img/instagram_icon.svg" />
+          </a>
         </NavbarItem>
       </NavbarContent>
       {/* <NavbarBrand justify="end">

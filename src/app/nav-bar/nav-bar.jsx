@@ -36,7 +36,7 @@ function NavBar() {
         <NavbarItem>
           <Link
             className="navbar-link"
-            href="https://www.alertthemedic.squarespace.com/store"
+            href="https://alertthemedic.squarespace.com/store"
           >
             STORE
           </Link>

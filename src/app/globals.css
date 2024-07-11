@@ -146,9 +146,12 @@ header {
     width: 20px;
   }
   /* MEDIAVIEW */
+  .media-title {
+    font-size: xx-large;
+  }
   .video-embed {
     width: 90%;
-    height: 300;
+    height: 500;
   }
 }
 
@@ -174,6 +177,9 @@ header {
     color: white;
     font-size: 50pt;
     padding: 10px;
+  }
+  .navbar-items {
+    padding-top: 10px;
   }
   .navbar-brand {
     position: static;

@@ -35,12 +35,13 @@ function NavBar() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link
+          <a
+            target="_blank"
             className="navbar-link"
             href="https://alertthemedic.squarespace.com/store"
           >
             STORE
-          </Link>
+          </a>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className="socials" justify="end">

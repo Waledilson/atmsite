@@ -12,9 +12,7 @@ function MediaView() {
           <p>amazon</p>
           <p>apple music</p>
           <p>deezer</p>
-          <p>something else</p>
-          <p>whatever</p>
-          <p>poop pee</p>
+          <p>tidal</p>
         </div>
       </div>
 

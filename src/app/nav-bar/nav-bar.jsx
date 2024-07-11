@@ -45,9 +45,7 @@ function NavBar() {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className="socials" justify="end">
-        {/* <NavbarItem className="socials-icon">
-          <img src="/img/youtube_icon.svg" />
-        </NavbarItem> */}
+     
         <NavbarItem className="socials-icon">
           <a href="https://www.facebook.com/alertthemedic">
             <img src="/img/facebook_icon.svg" />

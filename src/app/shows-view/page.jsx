@@ -7,7 +7,10 @@ function ShowsView() {
   return (
     <div className="shows-view">
       <h1>Shows</h1>
-      <Poster />
+      <a href="https://thejubilee.ca/">
+        <Poster />
+      </a>
+
       <div className="contact">
         <p>
           for booking inquries get at us <span></span>

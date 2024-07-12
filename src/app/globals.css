@@ -84,7 +84,7 @@ h1 {
   font-family: "MUNICH", sans-serif;
   color: white;
   text-align: center;
-  font-size: x-large;
+  /* font-size: x-large; */
 }
 .video-embed {
   width: 50%;
@@ -147,6 +147,19 @@ h1 {
   .content {
     padding: 4rem;
   }
+
+  h1 {
+    font-size: 50pt;
+    /* MAINPAGE */
+  }
+  .main-page {
+    .listen {
+      font-family: "MUNICH", sans-serif;
+      text-align: center;
+      color: white;
+      font-size: 30pt;
+    }
+  }
   /* NAVBAR */
   .navbar {
     font-family: "MUNICH", sans-serif;
@@ -176,9 +189,9 @@ h1 {
     width: 20px;
   }
   /* MEDIAVIEW */
-  .media-title {
+  /* .media-title {
     font-size: xx-large;
-  }
+  } */
   .video-embed {
     width: 90%;
     height: 500;
@@ -191,17 +204,16 @@ h1 {
   .grid {
     grid-template-columns: repeat(2, 50%);
   }
+  h1 {
+    font-size: 70pt;
+  }
   .navbar {
     font-family: "MUNICH", sans-serif;
     height: 7rem;
 
     background-color: #111111;
     border-bottom: 0.1rem solid #202020;
-    /* justify-content: center; */
   }
-  /* .navbar-items {
-    justify-content: stretch;
-  } */
 
   .navbar-link {
     color: white;
@@ -223,14 +235,25 @@ h1 {
     height: 80px;
     width: 80px;
   }
+
+  /* MAINPAGE */
+
+  .main-page {
+    .listen {
+      font-family: "MUNICH", sans-serif;
+      text-align: center;
+      color: white;
+      font-size: 30pt;
+    }
+  }
   /* MEDIAVIEW */
   .video-embed {
     width: 90%;
     height: 300px;
   }
-  .media-title {
+  /* .media-title {
     font-size: 70pt;
-  }
+  } */
   .streaming-platforms {
     font-size: 50pt;
   }
@@ -249,6 +272,9 @@ h1 {
   .poster {
     margin: auto;
     width: 90%;
+  }
+  .contact {
+    font-size: 30pt;
   }
 }
 

@@ -50,8 +50,11 @@ function NavBar() {
             <img src="/img/facebook_icon.svg" />
           </a>
         </NavbarItem>
-        <NavbarItem className="socials-icon" target="_blank">
-          <a href="https://www.instagram.com/alertthemedic">
+        <NavbarItem className="socials-icon">
+          <a
+            href="https://www.instagram.com/alertthemedic?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank"
+          >
             <img src="/img/instagram_icon.svg" />
           </a>
         </NavbarItem>

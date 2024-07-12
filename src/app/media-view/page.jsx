@@ -8,22 +8,25 @@ function MediaView() {
       <div>
         <h1 className="media-title">MEDIA</h1>
         <div className="streaming-platforms">
-          <a href="https://open.spotify.com/artist/21ha0CPxFe19DAiE4aKdgs?si=T8mZUrKvQa2kSlTYPvenhA">
+          <a
+            href="https://open.spotify.com/artist/21ha0CPxFe19DAiE4aKdgs?si=T8mZUrKvQa2kSlTYPvenhA"
+            target="_blank"
+          >
             <img className="spotify-logo" src="/img/spotify-logo.svg" />
           </a>
-          <a href="">
+          <a href="" target="_blank">
             <img className="apple-logo" src="/img/apple-music-logo.svg" />
           </a>
-          <a href="">
+          <a href="" target="_blank">
             <img className="amazon-logo" src="/img/Amazon_Music_White.png" />
           </a>
-          <a href="">
+          <a href="" target="_blank">
             <img className="deezer-logo" src="/img/deezer-logo.svg" />
           </a>
-          <a href="">
+          <a href="" target="_blank">
             <img className="tidal-logo" src="/img/tidal-logo.png" />
           </a>
-          <a href="">
+          <a href="" target="_blank">
             <img className="youtube-logo" src="/img/YouTube-logo.svg" />
           </a>
 

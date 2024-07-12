@@ -46,7 +46,10 @@ function NavBar() {
       </NavbarContent>
       <NavbarContent className="socials" justify="end">
         <NavbarItem className="socials-icon">
-          <a href="https://www.facebook.com/alertthemedic" target="_blank">
+          <a
+            href="https://www.facebook.com/alertthemedic?mibextid=LQQJ4d&rdid=kbookiCXvXXZSKvi&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2Ftfio9Mm9vXAXYdmv%2F%3Fmibextid%3DLQQJ4d"
+            target="_blank"
+          >
             <img src="/img/facebook_icon.svg" />
           </a>
         </NavbarItem>

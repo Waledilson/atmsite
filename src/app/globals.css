@@ -260,6 +260,34 @@ h1 {
   .youtube {
     font-size: 50pt;
   }
+  /* platform logos */
+  .spotify-logo {
+    padding: 10px;
+    margin: 0 auto;
+    width: 40%;
+  }
+  .apple-logo {
+    padding: 10px;
+    margin: 0 auto;
+    width: 40%;
+  }
+  .amazon-logo {
+    margin: 0 auto;
+    width: 40%;
+  }
+  .deezer-logo {
+    padding-bottom: 15px;
+    margin: 0 auto;
+    width: 40%;
+  }
+  .tidal-logo {
+    margin: 0 auto;
+    width: 40%;
+  }
+  .youtube-logo {
+    margin: 0 auto;
+    width: 40%;
+  }
   /* SHOWSVIEW */
 
   .shows-view {

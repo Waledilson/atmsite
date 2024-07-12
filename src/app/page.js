@@ -9,7 +9,7 @@ export default function Home() {
           <img className="lion-main-page-poster" src="/img/lion-cover.JPG" />
         </div>
         <div>
-          <p className="listen">Listen to "The Lion Underneath"</p>
+          <p className="listen">Out Now</p>
         </div>
       </div>
     </main>

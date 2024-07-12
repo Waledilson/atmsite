@@ -13,7 +13,7 @@ function ShowsView() {
 
       <div className="contact">
         <p>
-          for booking inquries get at us <span></span>
+          for booking inquries, get at us <br></br>
           <a href="mailto:info@alertthemedic.com">info@alertthemedic.com</a>
         </p>
       </div>

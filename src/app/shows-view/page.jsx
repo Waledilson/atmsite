@@ -6,8 +6,14 @@ function ShowsView() {
   }
   return (
     <div className="shows-view">
-      <h1>Come rock the f out with us</h1>
+      <h1>Shows</h1>
       <Poster />
+      <div className="contact">
+        <p>
+          for booking inquries get at us <span></span>
+          <a href="mailto:info@alertthemedic.com">info@alertthemedic.com</a>
+        </p>
+      </div>
     </div>
   )
 }

@@ -75,6 +75,10 @@ header {
 }
 
 /* MEDIAVIEW */
+h1 {
+  font-size: 50pt;
+  text-decoration: underline;
+}
 
 .media-view {
   font-family: "MUNICH", sans-serif;
@@ -90,13 +94,39 @@ header {
 .streaming-platforms {
   margin-bottom: 40px;
 }
-.youtube {
-}
 .video-embed {
   padding: 5px 50px 5px 50px;
   margin: auto;
 }
 
+/* platform logos */
+.spotify-logo {
+  padding: 10px;
+  margin: 0 auto;
+  width: 20%;
+}
+.apple-logo {
+  padding: 10px;
+  margin: 0 auto;
+  width: 20%;
+}
+.amazon-logo {
+  margin: 0 auto;
+  width: 30%;
+}
+.deezer-logo {
+  padding-bottom: 15px;
+  margin: 0 auto;
+  width: 20%;
+}
+.tidal-logo {
+  margin: 0 auto;
+  width: 20%;
+}
+.youtube-logo {
+  margin: 0 auto;
+  width: 20%;
+}
 /* SHOWSVIEW */
 
 .shows-view {

@@ -32,7 +32,10 @@ function MediaView() {
           <a href="https://tidal.com/browse/artist/5531956" target="_blank">
             <img className="tidal-logo" src="/img/tidal-logo.png" />
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://youtube.com/@alertthemedic?si=ubFXQpfI89sunC8A"
+            target="_blank"
+          >
             <img className="youtube-logo" src="/img/YouTube-logo.svg" />
           </a>
 

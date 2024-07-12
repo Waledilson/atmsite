@@ -14,16 +14,22 @@ function MediaView() {
           >
             <img className="spotify-logo" src="/img/spotify-logo.svg" />
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://music.apple.com/ca/artist/alert-the-medic/318287737"
+            target="_blank"
+          >
             <img className="apple-logo" src="/img/apple-music-logo.svg" />
           </a>
-          <a href="" target="_blank">
+          <a
+            href="https://amazon.com/music/player/artists/B002BINUTW/alert-the-medic?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_qNw0nfZoOZsFF0QeFoAnZDPDG"
+            target="_blank"
+          >
             <img className="amazon-logo" src="/img/Amazon_Music_White.png" />
           </a>
-          <a href="" target="_blank">
+          <a href="https://deezer.page.link/hkSN3PRJZVire5z69" target="_blank">
             <img className="deezer-logo" src="/img/deezer-logo.svg" />
           </a>
-          <a href="" target="_blank">
+          <a href="https://tidal.com/browse/artist/5531956" target="_blank">
             <img className="tidal-logo" src="/img/tidal-logo.png" />
           </a>
           <a href="" target="_blank">

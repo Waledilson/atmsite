@@ -2,7 +2,6 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import NavBar from "../app/nav-bar/nav-bar.jsx"
 import { NextUIProvider } from "@nextui-org/react"
-import ShowsView from "./shows-view/page.jsx"
 
 const inter = Inter({ subsets: ["latin"] })
 
